@@ -1,0 +1,489 @@
+ * Serving Flask app 'imageupload'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myExpressApp/backend/imageupload.py", line 38, in <module>
+    app.run(port=5000, debug=True)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 889, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/serving.py", line 1097, in run_simple
+    run_with_reloader(
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/_reloader.py", line 440, in run_with_reloader
+    reloader = reloader_loops[reloader_type](
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/_reloader.py", line 315, in __init__
+    from watchdog.events import EVENT_TYPE_OPENED
+ImportError: cannot import name 'EVENT_TYPE_OPENED' from 'watchdog.events' (/Users/ny/opt/anaconda3/lib/python3.9/site-packages/watchdog/events.py)
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> Sharing.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> Sharing.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+127.0.0.1 - - [07/Aug/2023 14:01:58] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [07/Aug/2023 14:01:59] "GET /favicon.ico HTTP/1.1" 404 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 6600 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+127.0.0.1 - - [07/Aug/2023 14:31:47] "GET /upload HTTP/1.1" 405 -
+127.0.0.1 - - [07/Aug/2023 14:31:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/Aug/2023 14:40:47] "GET /upload HTTP/1.1" 405 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:6600
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 6600 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:4400
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 02:30:54] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 02:30:54] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:4400
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 4400 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:1100
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 02:53:07] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 02:53:07] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 1100 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:1100
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 02:55:45] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 02:55:46] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 02:55:50] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 02:55:50] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 02:55:52] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 02:55:52] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 03:08:12] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 03:08:12] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 03:08:13] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 03:08:13] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 03:08:13] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 03:08:13] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 1100 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:3300
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 13:40:03] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 13:40:03] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 13:49:58] "OPTIONS /upload HTTP/1.1" 200 -
+Exception:
+'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 13:49:58] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 1100 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 13:55:00] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 13:55:00,612] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 11, in index
+    my_res = flask.Response("차단되지롱")
+NameError: name 'flask' is not defined
+127.0.0.1 - - [09/Aug/2023 13:55:00] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 2200 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:01:54] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:01:54,264] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 11, in index
+    my_res = Response("차단되지롱")  # <-- 'flask.'를 제거
+NameError: name 'Response' is not defined
+127.0.0.1 - - [09/Aug/2023 14:01:54] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 2, in <module>
+    from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, Response
+ImportError: cannot import name 'Response' from 'azure.storage.blob' (/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/__init__.py)
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:06:12] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:06:12] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:07:18] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:07:18] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 47, in <module>
+    app.run(port=2200, debug=True)  # debug=True will enable more detailed error logging
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 889, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/serving.py", line 1097, in run_simple
+    run_with_reloader(
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/_reloader.py", line 440, in run_with_reloader
+    reloader = reloader_loops[reloader_type](
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/werkzeug/_reloader.py", line 315, in __init__
+    from watchdog.events import EVENT_TYPE_OPENED
+ImportError: cannot import name 'EVENT_TYPE_OPENED' from 'watchdog.events' (/Users/ny/opt/anaconda3/lib/python3.9/site-packages/watchdog/events.py)
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:16:29] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:16:29,801] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 25, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 14:16:29] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:21:26] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:21:26,968] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 25, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 14:21:26] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:25:01] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:25:01,283] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 25, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [09/Aug/2023 14:25:01] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:30:15] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:30:16,356] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 32, in upload_file
+    blob_client.upload_blob(file.read())
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/tracing/decorator.py", line 76, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_client.py", line 737, in upload_blob
+    return upload_block_blob(**options)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_upload_helpers.py", line 195, in upload_block_blob
+    process_storage_error(error)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/response_handlers.py", line 189, in process_storage_error
+    exec("raise error from None")   # pylint: disable=exec-used # nosec
+  File "<string>", line 1, in <module>
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_upload_helpers.py", line 105, in upload_block_blob
+    response = client.upload(
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/tracing/decorator.py", line 76, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_generated/operations/_block_blob_operations.py", line 852, in upload
+    map_error(status_code=response.status_code, response=response, error_map=error_map)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/exceptions.py", line 112, in map_error
+    raise error
+azure.core.exceptions.ResourceNotFoundError: The specified container does not exist.
+RequestId:eb5dd61e-301e-0046-2782-cabfe0000000
+Time:2023-08-09T05:30:16.0712206Z
+ErrorCode:ContainerNotFound
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerNotFound</Code><Message>The specified container does not exist.
+RequestId:eb5dd61e-301e-0046-2782-cabfe0000000
+Time:2023-08-09T05:30:16.0712206Z</Message></Error>
+127.0.0.1 - - [09/Aug/2023 14:30:16] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [09/Aug/2023 14:30:27] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-09 14:30:27,755] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 32, in upload_file
+    blob_client.upload_blob(file.read())
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/tracing/decorator.py", line 76, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_client.py", line 737, in upload_blob
+    return upload_block_blob(**options)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_upload_helpers.py", line 195, in upload_block_blob
+    process_storage_error(error)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/response_handlers.py", line 189, in process_storage_error
+    exec("raise error from None")   # pylint: disable=exec-used # nosec
+  File "<string>", line 1, in <module>
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_upload_helpers.py", line 105, in upload_block_blob
+    response = client.upload(
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/tracing/decorator.py", line 76, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_generated/operations/_block_blob_operations.py", line 852, in upload
+    map_error(status_code=response.status_code, response=response, error_map=error_map)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/core/exceptions.py", line 112, in map_error
+    raise error
+azure.core.exceptions.ResourceNotFoundError: The specified container does not exist.
+RequestId:3cac33f1-701e-0057-5482-ca2554000000
+Time:2023-08-09T05:30:27.5368038Z
+ErrorCode:ContainerNotFound
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerNotFound</Code><Message>The specified container does not exist.
+RequestId:3cac33f1-701e-0057-5482-ca2554000000
+Time:2023-08-09T05:30:27.5368038Z</Message></Error>
+127.0.0.1 - - [09/Aug/2023 14:30:27] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:38:35] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:38:35] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 2200 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:44:35] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:44:35] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 2200 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [09/Aug/2023 14:54:37] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2023 14:54:37] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 21:46:41] "GET / HTTP/1.1" 404 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 21:51:44] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2023 21:51:44] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2023 22:12:16] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-29 22:12:16,177] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 28, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [29/Aug/2023 22:12:16] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 22:14:17] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-29 22:14:17,544] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 28, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [29/Aug/2023 22:14:17] "POST /upload HTTP/1.1" 500 -
+127.0.0.1 - - [29/Aug/2023 22:24:49] "OPTIONS /upload HTTP/1.1" 200 -
+[2023-08-29 22:24:50,005] ERROR in imageupload: An error occurred during the file upload.
+Traceback (most recent call last):
+  File "/Users/ny/Documents/GitHub/myexpressApp/backend/imageupload.py", line 28, in upload_file
+    blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_blob_service_client.py", line 179, in from_connection_string
+    account_url, secondary, credential = parse_connection_str(conn_str, credential, 'blob')
+  File "/Users/ny/opt/anaconda3/lib/python3.9/site-packages/azure/storage/blob/_shared/base_client.py", line 361, in parse_connection_str
+    conn_str = conn_str.rstrip(";")
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+127.0.0.1 - - [29/Aug/2023 22:24:50] "POST /upload HTTP/1.1" 500 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 22:27:55] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2023 22:27:55] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 22:31:44] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2023 22:31:44] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:2200
+Press CTRL+C to quit
+127.0.0.1 - - [29/Aug/2023 22:37:13] "OPTIONS /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2023 22:37:14] "POST /upload HTTP/1.1" 200 -
+ * Serving Flask app 'imageupload'
+ * Debug mode: off
+Address already in use
+Port 2200 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'login'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:51:27] "OPTIONS /login HTTP/1.1" 200 -
+Received token: ik7scHohFdqqF5lppJ1K62YSI7VqI1uGYuUeYvkiCj102QAAAYpGEdAe
+User Info: {'id': 2917223080, 'connected_at': '2023-07-18T05:40:17Z', 'properties': {'nickname': '김나영'}, 'kakao_account': {'profile_nickname_needs_agreement': False, 'profile': {'nickname': '김나영'}, 'has_email': True, 'email_needs_agreement': False, 'is_email_valid': True, 'is_email_verified': True, 'email': 'kny200208@kakao.com', 'has_gender': True, 'gender_needs_agreement': False, 'gender': 'female'}}
+Generated JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtueTIwMDIwOEBrYWthby5jb20iLCJnZW5kZXIiOiJmZW1hbGUiLCJuYW1lIjoiXHVhZTQwXHViMDk4XHVjNjAxIn0.OOHonxU9iMQEX-nA4EHrtI-CTIOTWWlYGDv3jwMx5-c
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:51:27] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:57:34] "OPTIONS /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:57:34] "GET /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:57:36] "OPTIONS /login HTTP/1.1" 200 -
+Received token: Gyz2t4cN8mUcqPKXj7F8XatwtJ2dHU6FVtX7DxccCj11WgAAAYpGF3Ix
+User Info: {'id': 2917223080, 'connected_at': '2023-07-18T05:40:17Z', 'properties': {'nickname': '김나영'}, 'kakao_account': {'profile_nickname_needs_agreement': False, 'profile': {'nickname': '김나영'}, 'has_email': True, 'email_needs_agreement': False, 'is_email_valid': True, 'is_email_verified': True, 'email': 'kny200208@kakao.com', 'has_gender': True, 'gender_needs_agreement': False, 'gender': 'female'}}
+Generated JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtueTIwMDIwOEBrYWthby5jb20iLCJnZW5kZXIiOiJmZW1hbGUiLCJuYW1lIjoiXHVhZTQwXHViMDk4XHVjNjAxIn0.OOHonxU9iMQEX-nA4EHrtI-CTIOTWWlYGDv3jwMx5-c
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 19:57:36] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 20:02:39] "OPTIONS /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 20:02:39] "GET /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 20:02:40] "OPTIONS /login HTTP/1.1" 200 -
+Received token: 8k4Q5g5Sfu98L9jz5D2psf5KbQZn63aJWsHGoMVsCiolkAAAAYpGHBYI
+User Info: {'id': 2917223080, 'connected_at': '2023-07-18T05:40:17Z', 'properties': {'nickname': '김나영'}, 'kakao_account': {'profile_nickname_needs_agreement': False, 'profile': {'nickname': '김나영'}, 'has_email': True, 'email_needs_agreement': False, 'is_email_valid': True, 'is_email_verified': True, 'email': 'kny200208@kakao.com', 'has_gender': True, 'gender_needs_agreement': False, 'gender': 'female'}}
+Generated JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtueTIwMDIwOEBrYWthby5jb20iLCJnZW5kZXIiOiJmZW1hbGUiLCJuYW1lIjoiXHVhZTQwXHViMDk4XHVjNjAxIn0.OOHonxU9iMQEX-nA4EHrtI-CTIOTWWlYGDv3jwMx5-c
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 20:02:40] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 21:48:23] "OPTIONS /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2023 21:48:23] "GET /welcome HTTP/1.1" 200 -

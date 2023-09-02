@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!--- basic page needs
+    ================================================== -->
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDS</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script> -->
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/stylesheets/vendor.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet"> 
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script
+        type="text/javascript"
+        src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js"
+        charset="utf-8">
+    </script>
+    <style>
+        input.underline {border:0;border-bottom:1 solid=rgb(246, 165, 13);}
+    </style> 
+
+  </head>
+  <body>
+    <body id="top">
+
+
+      <!-- preloader
+      ================================================== -->
+      <div id="preloader">
+          <div id="loader"></div>
+      </div>
+  
+  
+      <!-- page wrap
+      ================================================== -->
+      <div id="page" class="s-pagewrap">
+  
+  
+          <!-- # site header 
+          ================================================== -->
+          <header class="s-header">
+  
+              <div class="row s-header__inner">
+  
+                  <div class="s-header__block">
+                      <div class="s-header__logo">
+                          <a class="logo" href="index.html">
+                              <img src="/images/ddsicon2.png" alt="Homepage">
+                          </a>
+                      </div>
+  
+                      <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                  </div> <!-- end s-header__block -->
+  
+                  <nav class="s-header__nav">
+      
+                      <ul class="s-header__menu-links">
+                          <li class="current"><a href="#intro" class="smoothscroll">홈</a></li>
+                          <li><a href="#about" class="smoothscroll">DDS소개</a></li>
+                          <li><a href="#services" class="smoothscroll">진단하기</a></li>
+                          <li><a href="#folio" class="smoothscroll">질병설명</a></li>
+                          <li><a href="#footer" class="smoothscroll">로그인</a></li>
+                          <div id="welcome-message"></div>
+                      </ul> <!-- s-header__menu-links -->
+      
+                  </nav> <!-- end s-header__nav -->
+  
+              </div> <!-- end s-header__inner -->
+  
+          </header> <!-- end s-header -->
+  
+  
+          <!-- # site-content
+          ================================================== -->
+          <section id="content" class="s-content">
+  
+  
+              <!-- intro
+              ----------------------------------------------- -->
+              <section id="intro" class="s-intro target-section">
+  
+                  <div class="s-intro__bg"></div>
+  
+                  <div class="row s-intro__content">
+  
+                      <div class="s-intro__content-bg"></div>
+  
+                      <div class="column lg-12 s-intro__content-inner">
+                          
+                          <h1 class="s-intro__content-title">
+                          사진을 업로드 해주세요 <br>
+                          당신의 질병을 <br>
+                          확실하게 진단해드립니다.
+                          </h1>
+  
+                      </div> <!-- s-intro__content-inner -->
+  
+                  </div> <!-- s-intro__content -->
+  
+                  <div class="s-intro__scroll-down">
+                      <a href="#about" class="smoothscroll">
+                          <span>내려가기</span>
+                      </a>
+                  </div> <!-- s-intro__scroll-down -->
+
+                </section> <!-- end s-intro -->
+
+
+                <!-- about
+                ----------------------------------------------- -->
+                <section id="about" class="s-about target-section">
+    
+                    <div class="row section-header" data-num="01">
+                        <h3 class="column lg-12 section-header__pretitle pretitle text-pretitle">Who we are?</h3>
+                        <div class="column lg-6 stack-on-1100 section-header__primary">
+                            <h2 class="title text-display-1">
+                                저희는 ICT 멘토링에서 주최한 프로젝트를 통해 형성된
+                                교수님, 멘토님, 대학생으로 이루어진 팀입니다.
+    
+                            </h2>
+                        </div>
+                        <div class="column lg-6 stack-on-1100 section-header__secondary">
+                            <p class="desc">
+                                We are a team of professors, mentors, and university students 
+                                formed through a project hosted by ICT Mentoring.
+                            </p>
+                        </div>
+                    </div> <!-- end section-header -->
+    
+                    <div class="row process-list list-block show-ctr block-lg-one-half block-tab-whole">
+        
+                        <div class="column list-block__item">
+                            <div class="list-block__title">
+                                <h3 class="h5">BACKGROUND</h3>
+                            </div>
+                            <div class="list-block__text">
+                                <p>
+                                    기존의 진단시스템으로 면역 진단법인 항원 항체 검사와 분자진단법(PCR)이 사용되고 있다. 
+                                    항원 항체 검사는 정확도가 낮고, 분자 진단법의 경우 실험실에서 수행되어야 하는 단점이 있다.
+                                    위 단점을 극복한 QD-OLED 하이드로겔 저온 증폭 기술을 활용한 방법이 개발되었다. 
+                                </p>
+                            </div>
+                        </div> <!-- end list-block__item -->
+    
+                        <div class="column list-block__item">
+                            <div class="list-block__title">
+                                <h3 class="h5">MAIN FUNCTION</h3>
+                            </div>
+                            <div class="list-block__text">
+                                <p>
+                                    CMOS 패턴 이미지를 데이터로 저장하고 인공지능을 이용해 바이러스 검출 모델을 개발한 후
+                                    개발한 바이러스 검출 모델을 이용하여 바이러스를 검출하고 질병을 진단한후 사용자에게
+                                    질병 결과를 사용자 UI를 통해 제공한다.
+                                </p>
+                            </div>
+                        </div> <!-- end list-block__item -->
+            
+                        <div class="column list-block__item">
+                            <div class="list-block__title">
+                                <h3 class="h5">Applied technology</h3>
+                            </div>
+                            <div class="list-block__text">
+                                <p>
+                                    Azure Function, Azure Storage, Azure Event Grid, Azure Cosmos DB,
+                                    Azure Machine Learning, Azure Application Insights, Azure Key Vault로
+                                    Azure 을 적극 활용하여 개발함.
+                                </p>
+                            </div>
+                        </div> <!-- end list-block__item -->
+            
+                        <div class="column list-block__item">
+                            <div class="list-block__title">
+                                <h3 class="h5">Expected Effect</h3>
+                            </div>
+                            <div class="list-block__text">
+                                <p>
+                                    전문가가 필요한 기존 검사 체계를 비전문가도 가능한 검사 체계로 개발함으로써
+                                    시간 절약, 비용 절감, 정확도 향상, 사용성 항상 측면에 크게 기여할 수 있을 것이며,
+                                    인공지능을 이용한 진단 시스템과 의료진의 역량이 합쳐짐으로써 의료체계가 기존보다 강화될 수 있다.
+                                </p>
+                            </div>
+                        </div> <!-- end list-block__item -->
+    
+                    </div> <!-- end process-list -->
+    
+                </section> <!-- end s-about -->
+
+                <!-- services
+            ----------------------------------------------- -->
+            <section id="services" class="s-services target-section">
+
+                <div class="row section-header" data-num="02">
+                    <h3 class="column lg-12 section-header__pretitle text-pretitle">Start to diagnose</h3>
+                 
+                        <div class="column">
+                            <h2 class="title text-display-1">
+                                CMOS 패턴 이미지를 업로드 한 후, 잠시만 기다려주세요.
+                            </h2>
+                        
+                            <div id="root">
+                                <div class="row align-items-center"></div>
+                         
+                                    <div class="upload-box" style="padding-top: 40px;">
+                                        <div id="drop-file" class="drag-file">
+                                        <img src="https://img.icons8.com/pastel-glyph/2x/image-file.png" alt="파일 아이콘" class="image">
+                                        <input class="file dragOn" id="chooseFile" type="file" onchange="dropFile.handleFiles(this.files)">
+                                        <p class="message dragOn" class="text-display-1">드래그하여 사진을 업로드 해주세요.</p>
+                                        <div class="image-show" id="image-show"></div>
+                                        
+                                        </div>
+                                        <label class="file-label dragOn text-display-1" for="chooseFile" style="font-family:'Ysabeau SC', sans-serif; font-size:16px">파일 선택</label>
+                                        
+                                        
+                                    </div>
+                    
+                         </div>
+                            <div id="files" class="files">
+                            <div class="file">
+                                <div class="thumbnail"></div> 
+                            </div>
+                            </div>
+                                </div>
+                        </div>
+                    </div>
+                </div> <!-- end section-header -->
+            </section> <!-- end s-services -->
+
+            <!-- portfolio
+            ----------------------------------------------- -->
+            <section id="folio" class="s-folio target-section">
+
+                <div class="row section-header light-on-dark" data-num="03">
+                    <h3 class="column lg-12 section-header__pretitle text-pretitle">About to disease</h3>
+                    <div class="column lg-6 stack-on-1100 section-header__primary">
+                        <h2 class="title text-display-1">
+                            각종 질병에 대한 간단한 설명.
+                    </div>
+                    <div class="column lg-6 stack-on-1100 section-header__secondary">
+                        <p class="desc">
+                            Brief description of various diseases
+                        </p>
+                    </div>
+                </div> <!-- end section-header -->
+
+                <div id="bricks" class="row bricks">
+                    <div class="column lg-12 masonry">
+                        <div class="bricks-wrapper">
+
+                            <div class="grid-sizer"></div>
+
+                            <article class="brick brick--double entry">
+                                <a href="#modal-01" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/corona_img.png" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">First disease</div>
+                                        <h4 class="entry__title">코로나</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                            <article class="brick brick--double entry">
+                                <a href="#modal-02" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/dokgom.jpg" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">Second disease</div>
+                                        <h4 class="entry__title">독감</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                            <article class="brick entry">
+                                <a href="#modal-03" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/hong.jpg" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">Third disease</div>
+                                        <h4 class="entry__title">홍역</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                            <article class="brick entry">
+                                <a href="#modal-04" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/influn.jpg" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">Fourth disease</div>
+                                        <h4 class="entry__title">인플루엔자</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                            <article class="brick entry">
+                                <a href="#modal-05" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/flu.png" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">Fifth disease</div>
+                                        <h4 class="entry__title">감기</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                            <article class="brick entry">
+                                <a href="#modal-06" class="entry__link">
+                                    <div class="entry__thumb">
+                                        <img src="/images/sodo.jpg" alt="">
+                                    </div>
+                                    <div class="entry__info">
+                                        <div class="entry__cat">Sixth disease/div>
+                                        <h4 class="entry__title">수두</h4>
+                                    </div>
+                                </a>
+                            </article> <!-- entry -->
+
+                        </div> <!-- end bricks-wrapper -->
+                    </div> <!-- end masonry -->
+                </div> <!-- end bricks -->
+
+                 <!-- modal templates popup
+                -------------------------------------------- -->
+                <div id="modal-01" hidden>
+                    <div class="modal-popup">
+                        <img src="/images/CO.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>코로나</h5>
+                            <p>2019년 12월 중국 우한에서 처음 발생한 이후 중국 전역과 전 세계로 확산된, 새로운 유형의 코로나바이러스(SARS-CoV-2)에 의한 호흡기 감염질환이다.코로나바이러스감염증-19는 감염자의 비말(침방울)이 호흡기나 눈·코·입의 점막으로 침투될 때 전염된다. 감염되면 약 2~14일(추정)의 잠복기를 거친 뒤 발열(37.5도) 및 기침이나 호흡곤란 등 호흡기 증상, 폐렴이 주증상으로 나타나지만 무증상 감염 사례 빈도도 높게 나오고 있다. </p>
+                            <ul class="modal-popup__cat">
+                                <li>코로나</li>
+                                <li>Corona</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <div id="modal-02" hidden>
+                    <div class="modal-popup">
+                        <img src="/images/FLU1.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>독감</h5>
+                            <p>흔히 플루(flu)라고 말하는 급성 바이러스(virus) 감염 질환이다. 호흡기(respiratory track)를 공격하여 목이 붓고 열이 나며, 기침, 재채기, 콧물, 코막힘, 오한, 근육통, 두통, 복통 등과 급격한 피로를 동반한다. 보통 바이러스 감염 후 2~3일정도의 잠복기를 거쳐 1 주일에서 10일 정도 앓게 된다. 합병증으로 폐렴(pneumonia)이 되거나, 천식(asthma)이나 심장병(heart failure)같은 지병이 있는 경우 사망에 이를 수 있다.</p>
+                            <ul class="modal-popup__cat">
+                                <li>독감</li>
+                                <li>Flu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <div id="modal-03" hidden>
+                    <div class="modal-popup">
+                        <img src="/images/HONG_PIC.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>홍역</h5>
+                            <p>홍역 바이러스가 비말 감염에 의하여 일으키는 급성 전염병. 1~6세의 어린이에게 많고 봄철에 많다. 잠복기는 약 10일로, 감기와 비슷한 증상으로 시작하여 입안 점막에 작은 흰 반점이 생기고 나중에는 온몸에 좁쌀 같은 붉은 발진이 돋는다. 한 번 앓으면 다시 걸리지 않는다.</p>
+                            <ul class="modal-popup__cat">
+                                <li>홍역</li>
+                                <li>Measles</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <div id="modal-04" hidden>
+                    <div class="modal-popup">
+                        <img src="/images/INFLU_PIC3.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>인플루엔자</h5>
+                            <p>독감은 인플루엔자 바이러스에 의한 급성 호흡기 질환이다. 독감은 상부 호흡기계(코, 목)나 하부 호흡기계(폐)를 침범하며 갑작스런 고열, 두통, 근육통, 전신 쇠약감과 같은 전반적인 신체 증상을 동반한다. 독감은 우리나라를 비롯한 전 세계에서 발생하며, 계절 구분이 있는 지역에서는 매년 겨울에 소규모로 유행되고 있다. 독감은 전염성이 강하고, 노인, 소아, 및 기저질환이 있는 사람이 이환되면 사망률이 증가하고 합병증이 발생할 수 있다.</p>
+                            <ul class="modal-popup__cat">
+                                <li>인플루엔자</li>
+                                <li>Influenza</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <div id="modal-05" hidden>
+                    <div class="modal-popup">
+
+                        <img src="/images/COLD_PI.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>감기</h5>
+                            <p>감기는 바이러스에 의해 코와 목 부분을 포함한 상부 호흡기계의 감염 증상으로, 사람에게 나타나는 가장 흔한 급성 질환 중 하나이다. 재채기, 코막힘, 콧물, 인후통, 기침, 미열, 두통 및 근육통과 같은 증상이 나타나지만 대개는 특별한 치료 없이도 저절로 치유된다.</p>
+                            <ul class="modal-popup__cat">
+                                <li>감기</li>
+                                <li>Cold</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <div id="modal-06" hidden>
+                    <div class="modal-popup">
+                        <img src="/images/SODO_PIC.jpg" alt="">
+            
+                        <div class="modal-popup__desc">
+                            <h5>수두</h5>
+                            <p>수두-대상포진 바이러스(varicella-zoster virus)에 의한 급성 바이러스성 질환이다. 증상은 급성 미열로 시작되고 신체 전반이 가렵고 발진성 수포(물집)가 생긴다. 잠복기간은 2~3주, 보통 13~17일이다. 수두나 대상포진의 수포에서 나오는 액의 직접 접촉 또는 공기를 통해서 전파된다. 감염자의 타액(침)을 통해서도 전파될 수 있다. 수포는 발생 초기일수록 전염성이 강하고, 딱지가 생기면 전염되지 않는다. </p>
+                            <ul class="modal-popup__cat">
+                                <li>수두</li>
+                                <li>Varicella</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end modal -->
+
+                <section id="testimonials" class="s-testimonials">
+
+                    <div class="row s-testimonials__content">
+                        <div class="column lg-12">
+            
+                            <div class="swiper-container s-testimonials__slider">
+            
+                                <div class="swiper-wrapper">
+        
+                                    <div class="s-testimonials__slide swiper-slide">
+                                        <div class="s-testimonials__author">
+                                            <img src="/images/NUMBER1.jpg" alt="Author image" class="s-testimonials__avatar">
+                                            <cite class="s-testimonials__cite">
+                                                <strong>에이즈</strong>
+                                                <span>AIDS</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                            인간 면역 결핍 바이러스에 의하여 면역 세포가 파괴됨으로써 인체의 면역 능력이 극도로 저하되어 병원체에 대하여 무방비 상태에 이르는 병. 최초 감염으로부터 증상이 나타나기까지는 평균 10년 정도 걸리며 사망률이 대단히 높다. 성적 접촉, 오염 주사기 사용, 오염 혈액 및 혈액 제제 사용, 감염된 산모로부터의 수직 감염 따위에 의하여 감염된다. HIV(인체면역결핍바이러스)라는 바이러스에 감염되어 발생한다. 에이즈는 HIV에 감염된 후 인체 방어 면역력이 떨어져 건강한 사람에게 잘 나타나는 않는 바이러스, 세균, 곰팡이, 원충 또는 기생충 등에 의해 각종 감염성 질환이나 악성 종양 등 여러 합병증이 발생하는 상황을 총체적으로 일컫는 말이다.
+                                        </p>
+                                    </div> <!-- end s-testimonials__slide -->
+                    
+                                    <div class="s-testimonials__slide swiper-slide">
+                                        <div class="s-testimonials__author">
+                                            <img src="/images/NUMBER2.png" alt="Author image" class="s-testimonials__avatar">
+                                            <cite class="s-testimonials__cite">
+                                                <strong>결핵</strong>
+                                                <span>Tuberculosis</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                            결핵은 결핵균에 의한 호흡기전염병으로 결핵균은 전염성이 있는 폐결핵환자가 말을 하거나 기침, 재채기를 할 때 아주 미세한 침방울 형태로 환자의 몸밖으로 나오게 된다. 이러한 침방울의 크기는 매우 작아 몸밖으로 나오자마자 수분은 곧 증발하여 결핵균만이 공중으로 떠돌아다니다가 주위에 있는 사람들이 숨을 들이쉴 때 공기와 함께 폐속으로 들어가 중식을 함으로써 감염이 이루지게 된다. 감염되었다고 하여 모두 결핵에 걸리는 것은 아니며 대개 감염된 사람의 10%정도가 결핵환자가 된다.
+                                        </p>
+                                    </div> <!-- end s-testimonials__slide -->
+                    
+                                    <div class="s-testimonials__slide swiper-slide">
+                                        <div class="s-testimonials__author">
+                                            <img src="/images/NUMBER3.png" alt="Author image" class="s-testimonials__avatar">
+                                            <cite class="s-testimonials__cite">
+                                                <strong>장티푸스</strong>
+                                                <span>Typhoid</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                            Salmonella Typhi균에 의해서 발생하는 급성 전신 열성 질환, 인간이 유일한 병원소이며 자연 숙주임. 티푸스균이 창자에 들어가 일으키는 급성 법정 전염병. 경구 감염에 의하여 1~2주의 잠복기 후에 발병한다. 특유한 열 형태를 보이며 발열, 설사, 지라 비대, 창자 출혈, 뇌 증상, 발진 따위의 증상을 나타낸다. 오염된 식수와 음식물, 어패류를 통해 전염되며 환자나 보균자의 대소변에 오염된 음식물과 물을 먹었을 때 주로 감염된다.                                     
+                                        </p>
+                                    </div> <!-- end s-testimonials__slide -->
+            
+                                    <div class="s-testimonials__slide swiper-slide">
+                                        <div class="s-testimonials__author">
+                                            <img src="/images/NUMBER4.png" alt="Author image" class="s-testimonials__avatar">
+                                            <cite class="s-testimonials__cite">
+                                                <strong>콜레라</strong>
+                                                <span>Cholera</span>
+                                            </cite>
+                                        </div>
+                                        <p>
+                                            Vibrio Cholerae 균에 의한 세균성 장내 감염증으로 6시간에서 2일(길면 5일까지)의 잠복기를 거친 후 갑자기 시작하는 수양성 설사(watery diarhea)로 심한 경우에는 쌀뜨물 같은 설사와 함께 구토 및 미열을 동반하는 경우가 있으나 최근에는 대체로 열은 없으나 복통은 있음. 5일 이내에 전염 지역을 방문한 경험이 있는 사람 중 설사환자는 콜레라의 가능성을 고려해야 함.
+                                            
+                                        </p>
+                                    </div> <!-- end s-testimonials__slide -->
+                
+                                </div> <!-- end swiper-wrapper -->
+            
+                                <div class="swiper-pagination"></div>
+            
+                            </div> <!-- end swiper-container -->
+            
+                        </div> <!-- end column -->
+                    </div> <!-- end s-testimonials__content -->
+    
+                </section> <!-- end testimonials -->
+    
+            </section>  <!-- end content -->
+
+            <!-- # site-footer
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row section-header" data-num="login">
+                <h3 class="column lg-12 section-header__pretitle text-pretitle">Let's go login</h3>
+                    <div class="container row" style="float: none; margin:100 auto;">
+                        <h2 class="title text-display-1">
+                        로그인 후 더 많은 서비스를 이용해 보세요
+                        </h2>
+                        <div class="button_container">
+                            <!-- <p class="description">A simple pure CSS hover effect</p> -->
+                            <button class="kakao-login-btn" onclick="location.href='/login'" style="cursor:pointer;">소셜 로그인 click!</button>
+                         
+                        </div>
+                    </div>
+            </div>
+        </footer> <!-- end footer -->
+
+        <div id="modal" style="display: none;">
+            <div class="modal-popup">
+              <div class="modal-popup__desc">
+                <h2>이 이미지가 맞나요?</h2>
+                <img id="preview" src="" alt="Image preview">
+                <button id="confirm-upload">확인</button>
+              </div>
+            </div>
+          </div> <!-- end modal -->
+          
+
+
+
+    <script src="/javascripts/plugins.js"></script>
+    <script src="/javascripts/main.js"></script>
+
+
+  </body>
+</html>
