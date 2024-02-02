@@ -28,16 +28,26 @@ ICT멘토링에서 진행하였으며 Microsoft 개발자님과 같이 참여하
 
 
 <H3>📺와이어프레임</H3>
-                                                  웹 소개 화면
+웹 소개 화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/d2c8fe94-9afe-4c26-b95a-ff3e2185b4c6">
-                                                  이미지 업로드 화면
+
+
+이미지 업로드 화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/9f19aafe-dc8b-4e0e-a751-cfaea3fd3cec">
-                                                  홈화면
+
+
+홈화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/dd80f034-9711-4291-b25e-20f7eb890302">
-                                                  바이러스 질병 설명 확인
+
+
+바이러스 질병 설명 확인
 <img width="389" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/98673c67-dddb-42ac-92b8-cf179a5f6100">
-                                                  로그인 화면
+
+
+로그인 화면
 <img width="394" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/5335c720-4aab-4595-94fd-20cd1680916a">
+
+
 
 <H3>✅시연영상</H3>
 
@@ -45,13 +55,10 @@ https://youtu.be/5JZJagr4Q6Q
 
 <H3>🛠️주요기능</H3>
 
-기능	설명
+<H3>기능	설명</H3>
 카카오로그인	소셜로그인을 통해 회원 관리가 가능함.
-빌라 검색	본인이 원하는 빌라를 법원, 주소, 평형, 가격, 유찰수, 특수권리, 나의 물건에 따라서 검색 가능함.
-예상 낙찰가 조회	지난 경매 데이터로 학습된 선형회귀모델로 도출된 각 빌라의 예상 낙찰가 조회 가능함.
-모의입찰가 입력	예측분석에 필요한 파이썬 라이브러리를 사용하여 모의입찰가를 입력할 수 있음.
-입찰 관련 정보 조회	해당 빌라 단지 현황, 시세 정보, 남은 입찰 일수 등을 조회할 수 있음.
-관심있는 물건 한눈에 보기	빌라 매물을 구경하다 마음에 드는 매물에 저장을 누르면 나의 물건 목록에서 한번에 조회 가능함.
+바이러스 이미지 업로드 창.
+Azure 머신러닝을 이용한 이미지 분류 기능
 
 <H3>👩🏻‍💻개발기간 및 팀원소개</H3>
 
