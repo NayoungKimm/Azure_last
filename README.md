@@ -1,4 +1,4 @@
-<img width="394" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/f18ef9db-5c8e-43be-a67b-b2cbff292a02"><H1>프로젝트 제목</H1>
+
 azure클라우드 서비스를 이용한 인공지능 질병 진단 시스템 웹 개발
 
 
@@ -30,31 +30,31 @@ ICT멘토링에서 진행하였으며 Microsoft 개발자님과 같이 참여하
 <H3>📺와이어프레임</H3>
 
 
-웹 소개 화면
+**웹 소개 화면**
 
 
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/d2c8fe94-9afe-4c26-b95a-ff3e2185b4c6">
 
 
-이미지 업로드 화면
+**이미지 업로드 화면**
 
 
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/9f19aafe-dc8b-4e0e-a751-cfaea3fd3cec">
 
 
-홈화면
+**홈화면**
 
 
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/dd80f034-9711-4291-b25e-20f7eb890302">
 
 
-바이러스 질병 설명 확인
+**바이러스 질병 설명 확인**
 
 
 <img width="389" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/98673c67-dddb-42ac-92b8-cf179a5f6100">
 
 
-로그인 화면
+**로그인 화면**
 
 
 <img width="394" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/5335c720-4aab-4595-94fd-20cd1680916a">
@@ -67,7 +67,7 @@ https://youtu.be/5JZJagr4Q6Q
 
 <H3>🛠️주요기능</H3>
 
-<H3>기능	설명</H3>
+<H3>🛠️기능	설명</H3>
 카카오로그인	소셜로그인을 통해 회원 관리가 가능함.
 
 
@@ -77,9 +77,9 @@ https://youtu.be/5JZJagr4Q6Q
 Azure 머신러닝을 이용한 이미지 분류 기능
 
 
-<H3>제작 설계도</H3>
+<H3>🛠️제작 설계도</H3>
 
-사용자 메뉴 구성 설계도
+**사용자 메뉴 구성 설계도**
 
 
 <img width="339" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/3b8355a8-bfee-48fb-bf3e-b0496cab3a3f">
