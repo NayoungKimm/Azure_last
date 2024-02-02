@@ -28,15 +28,15 @@ ICT멘토링에서 진행하였으며 Microsoft 개발자님과 같이 참여하
 
 
 <H3>📺와이어프레임</H3>
-웹 소개 화면
+                                                  웹 소개 화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/d2c8fe94-9afe-4c26-b95a-ff3e2185b4c6">
-이미지 업로드 화면
+                                                  이미지 업로드 화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/9f19aafe-dc8b-4e0e-a751-cfaea3fd3cec">
-홈화면
+                                                  홈화면
 <img width="400" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/dd80f034-9711-4291-b25e-20f7eb890302">
-바이러스 질병 설명 확인
+                                                  바이러스 질병 설명 확인
 <img width="389" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/98673c67-dddb-42ac-92b8-cf179a5f6100">
-로그인 화면
+                                                  로그인 화면
 <img width="394" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/5335c720-4aab-4595-94fd-20cd1680916a">
 
 <H3>✅시연영상</H3>
