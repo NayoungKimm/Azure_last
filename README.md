@@ -1,4 +1,4 @@
-<H1>프로젝트 제목</H1>
+<img width="394" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/f18ef9db-5c8e-43be-a67b-b2cbff292a02"><H1>프로젝트 제목</H1>
 azure클라우드 서비스를 이용한 인공지능 질병 진단 시스템 웹 개발
 
 
@@ -69,8 +69,38 @@ https://youtu.be/5JZJagr4Q6Q
 
 <H3>기능	설명</H3>
 카카오로그인	소셜로그인을 통해 회원 관리가 가능함.
+
+
 바이러스 이미지 업로드 창.
+
+
 Azure 머신러닝을 이용한 이미지 분류 기능
+
+
+<H3>제작 설계도</H3>
+
+사용자 메뉴 구성 설계도
+
+
+<img width="339" alt="image" src="https://github.com/nnaX000/Azure_last/assets/112735794/3b8355a8-bfee-48fb-bf3e-b0496cab3a3f">
+
+
+**H/W 설계도**
+
+![image](https://github.com/nnaX000/Azure_last/assets/112735794/b8cfa0de-bda3-4a56-beaa-f58d1550c868)
+
+**기능 처리 설계도**
+
+![image](https://github.com/nnaX000/Azure_last/assets/112735794/abfdbc9a-8557-47fe-a3d7-9d70ea11f00a)
+
+**엔티티관계도**
+
+![image](https://github.com/nnaX000/Azure_last/assets/112735794/073eb36e-acd2-495e-9814-8aa7e96cebbc)
+
+**머신러닝 설계도**
+
+![image](https://github.com/nnaX000/Azure_last/assets/112735794/d9d400f3-733e-4a41-a311-3fa88cff7bbf)
+
 
 <H3>👩🏻‍💻개발기간 및 팀원소개</H3>
 
