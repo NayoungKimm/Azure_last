@@ -114,12 +114,8 @@ Azure 머신러닝을 이용한 이미지 분류 기능
 
 협업툴- GitHub, Git Desktop, Notion
 
-개발언어- HTML,CSS,JavaScript
+개발언어- HTML,CSS,JavaScript,Flask
 
 클라우드- Azure
 
-이외의 개발 툴- Visual Studio Code, Flask, Oracle
 
-<H3>✌🏻트러블슈팅과정</H3>
-
-<H3>📝후기</H3>
